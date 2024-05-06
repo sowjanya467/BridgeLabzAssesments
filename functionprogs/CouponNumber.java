@@ -26,6 +26,7 @@ public class CouponNumber {
 		System.out.println("enter the value n");
 		int couponNO = Utility.readInteger();
 		List<Integer> array = new ArrayList<>();
+		String password="sowji";
 		Random r = new Random();
 		while (array.size() < couponNO) {
 			System.out.println("hi sowjanya");
